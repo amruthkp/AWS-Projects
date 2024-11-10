@@ -1,26 +1,28 @@
-#                                        **Web Identity Federation**
+
+# Web Identity Federation
+
+In this project, we will implement a simple serverless application utilizing Web Identity Federation. The main focus is to showcase how to integrate Google as an identity provider with AWS services to create a seamless authentication and authorization process. Here's an overview of the key components and technologies involved:
 
 
 
 
-In this project, we will implement a simple serverless application utilizing Web Identity Federation. The main focus is to showcase how to integrate 
-Google as an identity provider with AWS services to create a seamless authentication and authorization process. 
-Here's an overview of the key components and technologies involved:
+- **Amazon S3**: Hosting the front-end application.
 
-1. Amazon S3: 
+- **Google API Project**: Act as an Identity Provider (IDP).
 
-   Hosting the front-end application.
+- **Amazon Cognito**: User management and authentication.
 
-3. Google API Project:
+- **AWS IAM Roles**: Manage permissions and access to AWS resources.
 
-   Act as an Identity Provider (IDP).
-
-4. Amazon Cognito:
-
-   User management and authentication.
-
-5. AWS IAM (Identity and Access Management) Roles:
-
-   Manage permissions and access to AWS resources.
+The application runs from a browser, gets the user to login using a Google ID and then loads all images from a private S3 bucket into a browser using presignedURLs.
 
 
+
+
+
+
+## 1 click deployment file
+
+Log into AWS account and select us-east-1 
+
+[WEBIDF](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/quickcreate?templateURL=https://learn-cantrill-labs.s3.amazonaws.com/aws-cognito-web-identity-federation/WEBIDF.yaml&stackName=WEBIDF)
