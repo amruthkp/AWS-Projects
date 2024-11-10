@@ -29,13 +29,13 @@ CloudFormation file - [WEBIDF](https://console.aws.amazon.com/cloudformation/hom
 
 ## Steps
 
- - [Provision the environment and review](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Provision the environment and review](https://github.com/amruthkp/AWS-Projects/blob/main/AWS-Cognito/Web-Identity-Federation/Provision%20the%20Environment.md)
 
- - [Create Google API Project & Client ID](https://github.com/matiassingers/awesome-readme)
+ - [Create Google API Project & Client ID](https://github.com/amruthkp/AWS-Projects/blob/main/AWS-Cognito/Web-Identity-Federation/Create%20Cognito%20Identity%20Pool.md)
  
- - [Create Cognito Identity Pool](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+ - [Create Cognito Identity Pool](https://github.com/amruthkp/AWS-Projects/blob/main/AWS-Cognito/Web-Identity-Federation/Create%20Cognito%20Identity%20Pool.md)
 
- - [Update App Bucket & Test Application]()
+ - [Update App Bucket & Test Application](https://github.com/amruthkp/AWS-Projects/blob/main/AWS-Cognito/Web-Identity-Federation/Test%20App%20Bucket%20Application.md)
 
- - [Cleanup]() 
+ - [Cleanup](https://github.com/amruthkp/AWS-Projects/blob/main/AWS-Cognito/Web-Identity-Federation/Cleanup.md) 
 
