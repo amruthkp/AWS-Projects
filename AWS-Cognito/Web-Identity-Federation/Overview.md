@@ -25,7 +25,7 @@ The application runs from a browser, gets the user to login using a Google ID an
 
 ## Environment Setup
 
-Log into AWS account and select us-east-1 region.
+Cloudformation File
 
 [WEBIDF](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/quickcreate?templateURL=https://learn-cantrill-labs.s3.amazonaws.com/aws-cognito-web-identity-federation/WEBIDF.yaml&stackName=WEBIDF)
 
