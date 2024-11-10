@@ -9,10 +9,8 @@
 - Click `Create Stack`
 
 <img width="1543" alt="image" src="https://github.com/user-attachments/assets/f3986f41-bed9-4b9e-a6a6-c166b15cccb8">
-
   
 - Wait for the STACK to move into the `CREATE_COMPLETE` state.
-
 
 ![image](https://github.com/user-attachments/assets/b91a0611-84f7-453c-a92d-c3da27921641)
 
