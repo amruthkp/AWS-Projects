@@ -26,3 +26,6 @@ The application runs from a browser, gets the user to login using a Google ID an
 Log into AWS account and select us-east-1 
 
 [WEBIDF](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/quickcreate?templateURL=https://learn-cantrill-labs.s3.amazonaws.com/aws-cognito-web-identity-federation/WEBIDF.yaml&stackName=WEBIDF)
+
+
+![ARCHITECTURE-ENDSTATE](https://github.com/user-attachments/assets/9eadb523-2c97-4ed7-8644-fa5399e83b08)
