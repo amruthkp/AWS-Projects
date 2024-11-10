@@ -7,3 +7,6 @@
 - Wait for the STACK to move into the `CREATE_COMPLETE` state.
 
 ![image](https://github.com/user-attachments/assets/fc7f8170-332a-4345-bb4a-0b627befc134)
+
+![image](https://github.com/user-attachments/assets/7cba436a-0e2b-440a-b879-35886c8d3933)
+
