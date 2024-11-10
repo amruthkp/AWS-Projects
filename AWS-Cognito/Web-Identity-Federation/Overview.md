@@ -29,7 +29,7 @@ CloudFormation file - [WEBIDF](https://console.aws.amazon.com/cloudformation/hom
 
 ## Steps
 
- - [Provision the environment and review](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Provision the environment and review](https://github.com/amruthkp/AWS-Projects/blob/main/AWS-Cognito/Web-Identity-Federation/Provision%20the%20Environment.md)
 
  - [Create Google API Project & Client ID](https://github.com/matiassingers/awesome-readme)
  
