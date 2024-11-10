@@ -29,13 +29,13 @@ CloudFormation file - [WEBIDF](https://console.aws.amazon.com/cloudformation/hom
 
 ## Steps
 
- - [Provision the environment and review](https://github.com/amruthkp/AWS-Projects/blob/main/AWS-Cognito/Web-Identity-Federation/Steps/Provision%20the%20Environment.md)
+ 1. [Provision the environment and review](https://github.com/amruthkp/AWS-Projects/blob/main/AWS-Cognito/Web-Identity-Federation/Steps/Provision%20the%20Environment.md)
 
- - [Create Google API Project & Client ID](https://github.com/amruthkp/AWS-Projects/blob/main/AWS-Cognito/Web-Identity-Federation/Steps/Create%20Cognito%20Identity%20Pool.md)
+ 1. [Create Google API Project & Client ID](https://github.com/amruthkp/AWS-Projects/blob/main/AWS-Cognito/Web-Identity-Federation/Steps/Create%20Cognito%20Identity%20Pool.md)
  
- - [Create Cognito Identity Pool](https://github.com/amruthkp/AWS-Projects/blob/main/AWS-Cognito/Web-Identity-Federation/Steps/Create%20Cognito%20Identity%20Pool.md)
+ 1. [Create Cognito Identity Pool](https://github.com/amruthkp/AWS-Projects/blob/main/AWS-Cognito/Web-Identity-Federation/Steps/Create%20Cognito%20Identity%20Pool.md)
 
- - [Update App Bucket & Test Application](https://github.com/amruthkp/AWS-Projects/blob/main/AWS-Cognito/Web-Identity-Federation/Steps/Test%20App%20Bucket%20Application.md)
+ 1. [Update App Bucket & Test Application](https://github.com/amruthkp/AWS-Projects/blob/main/AWS-Cognito/Web-Identity-Federation/Steps/Test%20App%20Bucket%20Application.md)
 
- - [Cleanup](https://github.com/amruthkp/AWS-Projects/blob/main/AWS-Cognito/Web-Identity-Federation/Steps/Cleanup.md) 
+ 1. [Cleanup](https://github.com/amruthkp/AWS-Projects/blob/main/AWS-Cognito/Web-Identity-Federation/Steps/Cleanup.md) 
 
