@@ -5,3 +5,5 @@
 - Check the  `The following resource(s) require capabilities: [AWS::IAM::ManagedPolicy, AWS::IAM::Role]` box  
 - Click `Create Stack`
 - Wait for the STACK to move into the `CREATE_COMPLETE` state.
+
+![image](https://github.com/user-attachments/assets/fc7f8170-332a-4345-bb4a-0b627befc134)
