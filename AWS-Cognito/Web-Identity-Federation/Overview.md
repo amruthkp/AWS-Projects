@@ -23,11 +23,21 @@ The application runs from a browser, gets the user to login using a Google ID an
 
 
 
-## 1 click deployment file
+## Environment Setup
 
-Log into AWS account and select us-east-1 
+Log into AWS account and select us-east-1 region.
 
 [WEBIDF](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/quickcreate?templateURL=https://learn-cantrill-labs.s3.amazonaws.com/aws-cognito-web-identity-federation/WEBIDF.yaml&stackName=WEBIDF)
 
+## Steps
 
+ - [Provision the environment and review](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+
+ - [Create Google API Project & Client ID](https://github.com/matiassingers/awesome-readme)
+ 
+ - [Create Cognito Identity Pool](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+
+ - [Update App Bucket & Test Application]()
+
+ - [Cleanup]() 
 
