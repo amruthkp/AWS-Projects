@@ -1,5 +1,5 @@
 
-# Web Identity Federation
+#                                                   Implementing Web Identity Federation
 
 In this project, we will implement a simple serverless application utilizing Web Identity Federation. The main focus is to showcase how to integrate Google as an identity provider with AWS services to create a seamless authentication and authorization process. Here's an overview of the key components and technologies involved:
 
