@@ -43,8 +43,9 @@
 <img width="1548" alt="image" src="https://github.com/user-attachments/assets/b9db6e50-8ef7-4d04-a20e-ebe1f6dbfc51">
 
 
+
 Below infrastructure is ready now.
 
 - front end app bucket
 - private bucket  
-- CloudFront distribution proving caching and HTTPS capability
+- CloudFront distribution with caching and HTTPS capability
