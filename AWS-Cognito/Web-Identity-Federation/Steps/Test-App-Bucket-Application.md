@@ -12,4 +12,16 @@
 
 <img width="1031" alt="image" src="https://github.com/user-attachments/assets/94c03df0-14d8-4a67-92d3-7fb9105b0f30">
 
+- Open the local copy of `scripts.js` in a code editor.   
+- Locate the IdentityPoolId: `REPLACE_ME_COGNITO_IDENTITY_POOL_ID` placeholder    
+- Replace the `REPLACE_ME_COGNITO_IDENTITY_POOL_ID` part with your IDENTITY POOL ID you noted down in the previous step  
+- Locate the `Bucket: "REPLACE_ME_NAME_OF_PATCHES_PRIVATE_BUCKET" ` placeholder.  
+- Replace `REPLACE_ME_NAME_OF_PATCHES_PRIVATE_BUCKET` with with bucket name of the `webidf-patchesprivatebucket-` bucket
+- Save `scripts.js`  
+
+# 3. Upload files
+
+- Back on the S3 console, inside the `webidf-appbucket-` bucket.   
+- Click `Upload`    
+- Add the `index.html` and `scripts.js` files and click `Upload`
 
