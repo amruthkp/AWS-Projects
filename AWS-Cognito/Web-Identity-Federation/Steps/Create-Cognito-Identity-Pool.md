@@ -22,7 +22,7 @@ Under Authenticated role
 
 ## Connect Identity providers
 
-- Enter `client ID` under Set up Google federation.(Client ID is the ID generated from the previous step)  
+- Enter `client ID` under Set up Google federation.(Client ID is the ID generated from previous step)  
 
 <img width="1549" alt="image" src="https://github.com/user-attachments/assets/d949df3a-5b65-4ac7-a425-fbad88dfd7e5">
 
