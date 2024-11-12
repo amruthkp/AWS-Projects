@@ -22,7 +22,7 @@ Under Authenticated role
 
 ## Connect Identity providers
 
-- Enter `client ID` under Set up Google federation.(Client ID is from the previous step which was generated  
+- Enter `client ID` under Set up Google federation.(Client ID is the ID generated from the previous step)  
 
 <img width="1549" alt="image" src="https://github.com/user-attachments/assets/d949df3a-5b65-4ac7-a425-fbad88dfd7e5">
 
@@ -31,3 +31,6 @@ Under Authenticated role
 
 - Enter `WebIDFpool` as Identity pool name and click `Next`
 - Review the content and click `Create identity pool`
+
+<img width="1551" alt="image" src="https://github.com/user-attachments/assets/d5032368-87d2-4f06-be9b-f4be32422d33">
+
