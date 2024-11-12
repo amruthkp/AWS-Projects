@@ -30,7 +30,7 @@ Under Authenticated role
 ## Configure properties
 
 - Enter `WebIDFpool` as Identity pool name and click `Next`
-- Review the content and click `Create identity pool`
+- Review the content and click `Create identity pool`. Make note of the `Identity pool ID`
 
 <img width="1551" alt="image" src="https://github.com/user-attachments/assets/d5032368-87d2-4f06-be9b-f4be32422d33">
 
