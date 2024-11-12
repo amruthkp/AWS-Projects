@@ -54,3 +54,16 @@ With two conditions
   
 This means to assume this role - you have to be authenticated by one of the ID providers defined in the cognito ID pool.  
 When you use WEDIDF with cognito, this role is assumed on your behalf by cognito, and its what generates temporary AWS credentials which are used to access AWS resources.
+
+- Click `permissions` .. this defines what these credentials can do. 
+
+<img width="1548" alt="image" src="https://github.com/user-attachments/assets/43910801-811c-4985-b0ff-ddc10b83f104">
+
+The cloudformation template created a managed policy which can access the `privatepatches` bucket.
+
+- Click `Add permissions` and then `Attach policies`
+- Type `PrivatePatches` in the search box and press `enter`
+- Check the box next to `PrivatePatchesPermissions` and click `Attach Policies`
+
+<img width="1546" alt="image" src="https://github.com/user-attachments/assets/b77d8fa0-6adc-4bc7-86c5-76b5ab3e6700">
+
