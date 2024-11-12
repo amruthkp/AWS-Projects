@@ -39,4 +39,4 @@ CloudFormation file - [WEBIDF](https://console.aws.amazon.com/cloudformation/hom
 
  1. [Cleanup](https://github.com/amruthkp/AWS-Projects/blob/main/AWS-Cognito/Web-Identity-Federation/Steps/Cleanup.md) 
 
-Source: https://github.com/acantril/learn-cantrill-io-labs/tree/master/aws-cognito-web-identity-federation
+
