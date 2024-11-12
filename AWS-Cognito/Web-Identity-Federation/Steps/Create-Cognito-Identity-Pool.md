@@ -1,4 +1,4 @@
-# CREATE A COGNITO IDENTITY POOL  
+# 1. CREATE A COGNITO IDENTITY POOL  
 
 - Go to the Cognito Console https://console.aws.amazon.com/cognito/home?region=us-east-1#
 - Select `Grant access to AWS Services` from the dropdown and click on `Create identity pool`        
@@ -34,3 +34,23 @@ Under Authenticated role
 
 <img width="1551" alt="image" src="https://github.com/user-attachments/assets/d5032368-87d2-4f06-be9b-f4be32422d33">
 
+
+# 2. Adjust Permissions 
+
+The serverless application is going to read images out of a private bucket created by the initial cloudformation template. The bucket is called `patchesprivatebucket`.
+
+- Go to the IAM Console https://console.aws.amazon.com/iam/home?region=us-east-1#/home    
+- Click `Roles`   
+- Locate and click on `WebIDF-role`  
+- Click on `Trust Relationships`  
+
+![image](https://github.com/user-attachments/assets/acea221e-1784-49e4-8618-cf21139bfe5a)
+
+See how this is assumable by `cognito-identity.amazonaws.com`  
+With two conditions  
+
+- `StringEquals` `cognito-identity.amazonaws.com:aud` `your congnito ID pool`  
+- `ForAnyValue:StringLike` `cognito-identity.amazonaws.com:amr` `authenticated`
+  
+This means to assume this role - you have to be authenticated by one of the ID providers defined in the cognito ID pool.  
+When you use WEDIDF with cognito, this role is assumed on your behalf by cognito, and its what generates temporary AWS credentials which are used to access AWS resources.
