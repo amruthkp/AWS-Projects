@@ -16,8 +16,8 @@ In this project we will focus on Migrate & Modernize phase, we will learn how to
 
 Below are the steps followed:
 
-- Getting Started
-- Discover
-- Database Migration
-- Application Migration
-- Elastic Disaster Recovery 
+1. Getting Started
+1. Discover
+1. Database Migration
+1. Application Migration
+1. Elastic Disaster Recovery 
