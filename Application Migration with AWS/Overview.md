@@ -13,3 +13,11 @@ In this project we will focus on Migrate & Modernize phase, we will learn how to
 
 
 - **Replatform of application to a managed platform on AWS Elastic Beanstalk** - With Elastic Beanstalk you can quickly deploy and manage applications in the AWS Cloud without having to learn about the infrastructure that runs those applications. 
+
+Below are the steps followed:
+
+- Getting Started
+- Discover
+- Database Migration
+- Application Migration
+- Elastic Disaster Recovery 
