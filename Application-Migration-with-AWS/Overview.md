@@ -1,23 +1,22 @@
 # Application Migration with AWS
 
-In this project we will focus on Migrate & Modernize phase, we will learn how to migrate a fictional application to AWS cloud by:
+This goal of this project is to give you an overview of the migration strategies available to move workloads from on-premises environments to AWS cloud. For that we will create a lab environment that will try to provide a close resemble to what we will see in a real migration.
 
-- **Replatform of database with AWS Database Migration Service** - a managed migration and replication service that helps move your database and analytics workloads to AWS quickly, securely, and with minimal downtime and zero data loss.
+## Source Environment
 
-- **Rehost of application with AWS Application Migration Service** - Application Migration Service simplifies, expedites, and reduces the cost of migrating and modernizing applications.
+The most common source environment are on-premises virtualized datacenters. For this project, the source environment will be simulated by a segregated Amazon VPC named SourceVPC, deployed within the same AWS account.
 
-- **Replatform of application to containers running on Amazon Elastic Container Service** - Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service. You can choose to run your ECS clusters using:
+![image](https://github.com/user-attachments/assets/42fea978-5a04-4d2a-9523-d155868e6858)
 
-  -  AWS Fargate launch type, which provides serverless compute capabilities for containers, or
-  - EC2 instances that you manage.
+Within that source environment, we have our sample workload deployed:
 
+1. **Application (Source-Webserver)** - eCommerce Web Application, written in PHP 7.x (Wordpress and WooCommerce), hosted on Linux.
+1. **Database (Source-DBServer)** - Relational data persistency layer, using self-managed MySQL 5.7.x, hosted on Linux.
 
-- **Replatform of application to a managed platform on AWS Elastic Beanstalk** - With Elastic Beanstalk you can quickly deploy and manage applications in the AWS Cloud without having to learn about the infrastructure that runs those applications. 
+## Target Environment
 
-Below are the steps followed:
+The migrations are going to move the workload components from the source to the target environments. This project has a target environment following a standard Amazon VPC topology. This is an Amazon VPC named TargetVPC, provisioned in the same AWS account and AWS Region of the source environment, and we will use it across 2 Availability Zones for High Availability purposes.
 
-1. Getting Started
-1. Discover
-1. Database Migration
-1. Application Migration
-1. Elastic Disaster Recovery 
+![image](https://github.com/user-attachments/assets/04425a04-0527-49b2-bc61-e0206394defc)
+
+The target environment is mostly empty in purpose, and the resources will be created as we progress in the migration journey.
