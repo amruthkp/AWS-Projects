@@ -13,6 +13,8 @@ Within that source environment, we have our sample workload deployed:
 1. **Application (Source-Webserver)** - eCommerce Web Application, written in PHP 7.x (Wordpress and WooCommerce), hosted on Linux.
 1. **Database (Source-DBServer)** - Relational data persistency layer, using self-managed MySQL 5.7.x, hosted on Linux.
 
+
+
 ## Target Environment
 
 The migrations are going to move the workload components from the source to the target environments. This project has a target environment following a standard Amazon VPC topology. This is an Amazon VPC named TargetVPC, provisioned in the same AWS account and AWS Region of the source environment, and we will use it across 2 Availability Zones for High Availability purposes.
