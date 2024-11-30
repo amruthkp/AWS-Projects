@@ -13,6 +13,7 @@ Within that source environment, we have our sample workload deployed:
 1. **Application (Source-Webserver)** - eCommerce Web Application, written in PHP 7.x (Wordpress and WooCommerce), hosted on Linux.
 1. **Database (Source-DBServer)** - Relational data persistency layer, using self-managed MySQL 5.7.x, hosted on Linux.
 
+![image](https://github.com/user-attachments/assets/76855644-1558-4429-a507-b7bed19ee3fc)
 
 
 ## Target Environment
